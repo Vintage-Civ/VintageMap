@@ -13,7 +13,7 @@ const LeafBaseMap = ({
   return <RL.TileLayer
     url={tilesRoot + basemapId + '/z{z}/{x},{y}.png'}
     errorTileUrl={'data:image/gifbase64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'}
-    tileSize={256}
+    tileSize={32}
     bounds={tileBounds}
     minZoom={-6}
     maxNativeZoom={0}
